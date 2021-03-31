@@ -19,3 +19,7 @@ doc/api/
 *.js_
 *.js.deps
 *.js.map
+
+.venv
+dev_martin.yml
+dev_mason.yml
