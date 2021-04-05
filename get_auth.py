@@ -39,7 +39,7 @@ def test_auth(cookies, session, xsrf_token):
         auth_url, 
         params=params, 
         data=payload,
-        #allow_redirects=False,
+        allow_redirects=True,
         cookies=cookies, 
         headers=headers, 
         timeout=5
